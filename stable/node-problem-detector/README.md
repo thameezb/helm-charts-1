@@ -65,6 +65,7 @@ helm install my-release deliveryhero/node-problem-detector -f values.yaml
 | logDir.pod | string | `""` | log directory in pod (volume mount), use logDir.host if empty |
 | maxUnavailable | int | `1` | The max pods unavailable during an update |
 | metrics.enabled | bool | `false` |  |
+| metrics.additionalLabels | object | `{}` |  
 | metrics.serviceMonitor.additionalLabels | object | `{}` |  |
 | metrics.serviceMonitor.enabled | bool | `false` |  |
 | nameOverride | string | `""` |  |

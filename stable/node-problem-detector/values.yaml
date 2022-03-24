@@ -98,6 +98,7 @@ nodeSelector: {}
 
 metrics:
   enabled: false
+  additionalLabels: {}
   serviceMonitor:
     enabled: false
     additionalLabels: {}
